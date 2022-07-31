@@ -14,8 +14,8 @@
                                 <!-- <input type="hidden" name="idabsen"> -->
                                 <div class="row">
                                     <div class="form-group col-12 col-md-6">
-										<label for="nik" class="col-form-label">NIK</label>
-										<input type="text" required class="form-control" placeholder="Masukkan NIK" name="nik">
+										<label for="nik" class="col-form-label">NIP</label>
+										<input type="text" required class="form-control" placeholder="Masukkan NIP" name="nik">
 									</div>
 									<div class="form-group col-12 col-md-6">
 										<label for="nama" class="col-form-label">Nama</label>

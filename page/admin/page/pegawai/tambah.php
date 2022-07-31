@@ -17,18 +17,18 @@
 										<label for="idpegawai" class="col-form-label">ID Pegawai</label>
 										<input type="text" required class="form-control" placeholder="Masukkan ID" name="idpegawai">
 									</div>
-                                    <div class="form-group col-12 col-md-6">
+                                   <!--  <div class="form-group col-12 col-md-6">
 										<label for="nik" class="col-form-label">NIK</label>
 										<input type="text" required class="form-control" placeholder="Masukkan NIK" name="nik">
-									</div>
-									
-								</div>
-                                <div class="row">
-                                    <div class="form-group col-12 col-md-4">
+									</div> -->
+									 <div class="form-group col-12 col-md-6">
 										<label for="nama" class="col-form-label">Nama</label>
 										<input type="text" required class="form-control" placeholder="Masukkan Nama" name="nama">
 									</div>
-									<div class="form-group col-12 col-md-4">
+								</div>
+                                <div class="row">
+                                   
+									<div class="form-group col-12 col-md-6">
 										<label for="namadivisi" class="col-form-label">Nama Bidang</label>
 											<select name="namadivisi" required class="form-control">
 												<option value="#">-- Pilih --</option>
@@ -40,7 +40,7 @@
 												?>
 											</select>
 									</div>
-                                    <div class="form-group col-12 col-md-4">
+                                    <div class="form-group col-12 col-md-6">
                                             <label for="pangkat" class="col-form-label">Pangkat</label>
 											<select name="pangkat" id="pangkat" class="form-control" onchange="pang()">
 												<option value="#">-- Pilih --</option>

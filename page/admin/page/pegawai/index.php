@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid" style="margin-bottom: 100px;">
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">

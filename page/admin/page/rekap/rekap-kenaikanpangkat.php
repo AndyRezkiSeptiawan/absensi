@@ -16,7 +16,7 @@
     </div>
                     
     <div class="row mt-2">
-        <div class="col-md-4">
+        <div class="col-md-5">
             <form action="" method="POST">
                 <div class="border p-2">
                     <div class="form-check form-check-inline">
@@ -70,7 +70,7 @@
             <thead class="table-info">
                 <tr align="center">
                     <th>ID</th>
-                    <th>NIK</th>
+                    <th>ID Pegawai</th>
                     <th>Nama</th>
                     <th>Pangkat Baru</th>
                     <th>Golongan Baru</th>

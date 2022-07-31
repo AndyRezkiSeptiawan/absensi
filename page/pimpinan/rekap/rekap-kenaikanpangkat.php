@@ -67,7 +67,7 @@
             <thead class="table-info">
                 <tr align="center">
                     <th>ID</th>
-                    <th>NIK</th>
+                    <th>ID Pegawai</th>
                     <th>Nama</th>
                     <th>Pangkat Baru</th>
                     <th>Golongan Baru</th>

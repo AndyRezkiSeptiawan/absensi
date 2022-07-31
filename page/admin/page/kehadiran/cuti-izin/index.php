@@ -35,6 +35,7 @@
 					 $sqlabsenmsk = mysqli_query($koneksi, "SELECT * FROM cuti
                      INNER JOIN data_pegawai ON cuti.id_pegawai = data_pegawai.id_pegawai
                      WHERE status_cuti='Ajukan' OR status_cuti='Diperiksa' OR status_cuti='Diterima'
+                     OR status_cuti='Ditolak'
                     ");
                      while($row = mysqli_fetch_array($sqlabsenmsk))
 

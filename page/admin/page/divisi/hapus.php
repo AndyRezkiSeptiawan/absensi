@@ -2,7 +2,7 @@
 
     $id = $_GET['id'];
 
-    $hps = mysqli_query($koneksi,"DELETE FROM divisi WHERE id_divisi='$id'");
+    $hps = mysqli_query($koneksi,"DELETE FROM bidang WHERE id_bidang='$id'");
     if($hps == true){
         echo
         '

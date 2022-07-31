@@ -59,8 +59,8 @@
                                 class="form-control" placeholder="Masukan Nama" value="<?=$data['nama']?>"></div>
                     </div>
                     <div class="row mt-2">
-                        <div class="col-md-12"><label class="labels">NIK</label><input type="text" class="form-control"
-                                name="nik" placeholder="Masukan Nik" readonly="" value="<?=$nik?>"></div>
+                        <div class="col-md-12"><label class="labels">ID Pegawai</label><input type="text" class="form-control"
+                                name="nik" placeholder="Masukan NIP" readonly="" value="<?=$nik?>"></div>
                         <div class="col-md-12"><label class="labels">Email</label><input type="text"
                                 class="form-control" name="email" placeholder="Masukan email"
                                 value="<?=$data1['email']?>"></div>
@@ -99,7 +99,7 @@
                             <input type="text" name="golongan" id="golongan" value="<?=$golongan?>" class="form-control"
                                 readonly="">
                         </div>
-                        <div class="col-md-12"><label class="labels">Divisi</label>
+                       <!--  <div class="col-md-12"><label class="labels">Divisi</label>
                             <select name="namadivisi" required class="form-control">
                                 <option value="#">-- Pilih --</option>
                                 <?php
@@ -120,7 +120,7 @@
 
 
                             </select>
-                        </div>
+                        </div> -->
                         <!-- <div class="col-md-12"><label class="labels">Gaji (Rp)</label>
                         <div class="form-control">
                             Rp <?=number_format($gaji,0,',','.')?>
@@ -166,7 +166,7 @@
             if($data < 1){
                     $tambah = mysqli_query($koneksi,"INSERT INTO data_pegawai(
                     id_pegawai,nik,nama,id_bidang,id_pangkat,jenis,jum_cuti)
-                    VALUES('$randid','$nik','$nama','$namadivisi','$pangkat','$jenis','12')
+                    VALUES('$nik','$nik','$nama','$namadivisi','$pangkat','$jenis','12')
                     ");
 
                     echo '

@@ -77,7 +77,7 @@
             <thead class="table-info">
                 <tr align="center">
                     <th>No</th>
-                    <th>NIK</th>
+                    <th>ID Pegawai</th>
                     <th>nama</th>
                     <th>Tgl</th>
                     <th>Waktu Masuk</th>

@@ -57,7 +57,7 @@
                             echo '
                             <tr align="center">
                             <th>No</th>
-                            <th>NIK</th>
+                            <th>ID Pegawai</th>
                             <th>Nama</th>
                             <th>Pangkat/Gol</th>
                             <th>Jenis</th>
@@ -69,7 +69,7 @@
                             echo '
                             <tr align="center">
                             <th>No</th>
-                            <th>NIK</th>
+                            <th>ID Pegawai</th>
                             <th>Nama</th>
                             <th>Pangkat</th>
                             <th>Golongan</th>

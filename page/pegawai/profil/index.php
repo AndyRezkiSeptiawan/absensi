@@ -46,23 +46,27 @@
 
             </div> -->
         </div>
+
         <div class="col-md-8 col-12">
+            <div class="btnkmbli text-right mt-2">
+            <a href="?page=dashboard" class="btn btn-danger">Kembali</a></div>
             <div class="p-5">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <h4 class="text-right">Profile Settings</h4>
+
                 </div>
                 <form action="" method="POST">
                     <input type="hidden" value="<?=$data1['id_user']?>" name="id_user">
                     <input type="hidden" value="<?=$data['id_pegawai']?>" name="id_pegawai">
                     <div class="row mt-2">
                         <div class="col-md-12"><label class="labels">Nama</label><input type="text" name="nama"
-                                class="form-control" placeholder="Masukan Nama" value="<?=$data['nama']?>"></div>
+                                class="form-control" placeholder="Masukan Nama" value="<?=$data1['nama']?>"></div>
                     </div>
                     <div class="row mt-2">
-                        <div class="col-md-12"><label class="labels">ID Pegawai</label><input type="text" class="form-control"
-                                name="nip" placeholder="Masukan NIP" readonly="" value="<?=$id_peggawaidt?>"></div>
-                        <div class="col-md-12"><label class="labels">NIK</label><input type="text" class="form-control"
-                                name="nik" placeholder="Masukan Nik" readonly="" value="<?=$nik?>"></div>
+                        <div class="col-md-12"><label class="labels">ID Pegawai</label><input type="text" class="form-control" readonly=""
+                                name="nip" placeholder="Masukan NIP" value="<?=$nik?>"></div>
+                        <!-- <div class="col-md-12"><label class="labels">NIK</label><input type="hidden" class="form-control"
+                                name="nik" placeholder="Masukan Nik" readonly="" value="<?=$nik?>"></div> -->
                         <div class="col-md-12"><label class="labels">Email</label><input type="text"
                                 class="form-control" name="email" placeholder="Masukan email"
                                 value="<?=$data1['email']?>"></div>
@@ -135,7 +139,7 @@
                     <div class="mt-5 text-center">
                         <input class="btn btn-primary profile-button" type="submit" name="submit"
                             value="Save Profile"></input>
-                        <a href="?page=dashboard" class="btn btn-danger">Kembali</a>
+                        
                     </div>
                 </form>
             </div>
@@ -155,7 +159,7 @@
         var_dump($randid);
         $id_user = $_POST['id_user'];
         $nama = $_POST['nama'];
-        $nik = $_POST['nik'];
+        $nip = $_POST['nip'];
         //database user
         $email = $_POST['email'];
         $no_telp = $_POST['no_telp'];
@@ -171,7 +175,7 @@
             if($data < 1){
                     $tambah = mysqli_query($koneksi,"INSERT INTO data_pegawai(
                     id_pegawai,nik,nama,id_bidang,id_pangkat,jenis,jum_cuti)
-                    VALUES('$randid','$nik','$nama','$namadivisi','$pangkat','$jenis','12')
+                    VALUES('$nip','$nip','$nama','$namadivisi','$pangkat','$jenis','12')
                     ");
 
                     echo '

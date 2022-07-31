@@ -29,7 +29,8 @@
             <tbody>
                 <?php
 					 $sqldvsi = mysqli_query($koneksi, "SELECT * FROM gaji
-                     INNER JOIN data_pegawai ON gaji.id_pegawai = data_pegawai.id_pegawai");
+                     INNER JOIN data_pegawai ON gaji.id_pegawai = data_pegawai.id_pegawai
+                     ORDER BY tgl_pengajian DESC");
                      while($row = mysqli_fetch_array($sqldvsi))
                      {
 					?>

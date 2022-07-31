@@ -51,7 +51,7 @@
             <thead class="table-info">
                 <tr align="center">
                     <th>No</th>
-                    <th>NIK</th>
+                    <th>ID Pegawai</th>
                     <th>Nama</th>
                     <th>Pangkat/Gol</th>
                     <th>Bidang</th>

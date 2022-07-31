@@ -164,7 +164,7 @@ img{
 
 		$hari = date('d');
 		$bulan = date('mY');
-		$gto = '29';
+		$gto = '01';
 
 
 		$datapg = mysqli_query($koneksi,"SELECT * FROM data_pegawai

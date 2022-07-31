@@ -76,6 +76,7 @@
 								date_default_timezone_set("Asia/Makassar");
 								$tgl_skarang = date('d-m-Y');
 								$frmt = date('l');
+								// tbl libur
 								$libur = mysqli_query($koneksi,"SELECT * FROM libur");
 								$data = mysqli_fetch_array($libur);
 								$tgl = date('d-m-Y', strtotime($data['tgl']));
